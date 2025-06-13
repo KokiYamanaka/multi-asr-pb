@@ -4,14 +4,14 @@ from typing import List, Dict
 import numpy as np
 
 
-import os
-from imageio_ffmpeg import get_ffmpeg_exe
+# import os
+# from imageio_ffmpeg import get_ffmpeg_exe
 
 
-# ─── Bundle ffmpeg into PATH ─────────────────────────────────────────
-ffmpeg_path = get_ffmpeg_exe()                      # locate the downloaded binary
-ffmpeg_dir  = os.path.dirname(ffmpeg_path)          # its folder
-os.environ["PATH"] = ffmpeg_dir + os.pathsep + os.environ.get("PATH", "")
+# # ─── Bundle ffmpeg into PATH ─────────────────────────────────────────
+# ffmpeg_path = get_ffmpeg_exe()                      # locate the downloaded binary
+# ffmpeg_dir  = os.path.dirname(ffmpeg_path)          # its folder
+# os.environ["PATH"] = ffmpeg_dir + os.pathsep + os.environ.get("PATH", "")
 # ─────────────────────────────────────────────────────────────────────
 import whisper
 
