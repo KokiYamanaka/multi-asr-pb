@@ -1,0 +1,3 @@
+So, the MVP’s scope is simple: voice-first interface, task management. Right?
+
+Y-yeah, like, uh… users can say things like remind me to call Jason or schedule Zoom with

@@ -1,0 +1,11 @@
+jiwer==3.1.0
+librosa 
+matplotlib==3.10.3
+noisereduce==3.0.3
+numpy
+pandas
+soundfile==0.13.1
+streamlit==1.37.1
+openai-whisper 
+whisper_normalizer==0.1.12
+streamlit
